@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_nav_watch"
+    app:startDestination="@id/home2">
+
+    <fragment
+        android:id="@+id/home2"
+        android:name="com.example.navigationwatchtest.Home"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_home2_to_compass"
+            app:destination="@id/compass"
+            app:popEnterAnim="@anim/generic_confirmation_generic_confirmation_animation"
+            app:popExitAnim="@anim/open_on_phone_path_1_animation" />
+    </fragment>
+    <fragment
+        android:id="@+id/compass"
+        android:name="com.example.navigationwatchtest.Compass"
+        android:label="fragment_compass"
+        tools:layout="@layout/fragment_compass" >
+        <action
+            android:id="@+id/action_compass_to_home2"
+            app:destination="@id/home2"
+            app:popEnterAnim="@anim/open_on_phone_arrow_animation"
+            app:popExitAnim="@anim/open_on_phone_path_1_animation" />
+    </fragment>
+</navigation>
