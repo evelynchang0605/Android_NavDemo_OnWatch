@@ -15,6 +15,13 @@
             app:destination="@id/compass"
             app:popEnterAnim="@anim/generic_confirmation_generic_confirmation_animation"
             app:popExitAnim="@anim/open_on_phone_path_1_animation" />
+        <action
+            android:id="@+id/action_home2_to_heart"
+            app:destination="@id/heart" />
+        <argument
+            android:name="heartbeat"
+            app:argType="string"
+            android:defaultValue="90" />
     </fragment>
     <fragment
         android:id="@+id/compass"
@@ -26,5 +33,18 @@
             app:destination="@id/home2"
             app:popEnterAnim="@anim/open_on_phone_arrow_animation"
             app:popExitAnim="@anim/open_on_phone_path_1_animation" />
+    </fragment>
+    <fragment
+        android:id="@+id/heart"
+        android:name="com.example.navigationwatchtest.Heart"
+        android:label="fragment_heart"
+        tools:layout="@layout/fragment_heart" >
+        <argument
+            android:name="heartbeat"
+            app:argType="integer"
+            android:defaultValue="100" />
+        <action
+            android:id="@+id/action_heart_to_home2"
+            app:destination="@id/home2" />
     </fragment>
 </navigation>

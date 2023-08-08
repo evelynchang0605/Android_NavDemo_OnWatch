@@ -6,4 +6,9 @@
     <string name="button">Compass</string>
     <string name="textview2">Compass</string>
     <string name="button2">Home</string>
+    <string name="imageButton">heartbeat</string>
+    <string name="textview3">HeartBeat</string>
+    <string name="imageView">heat_full</string>
+    <string name="imageButton2">backhome</string>
+    <string name="button3">start</string>
 </resources>
