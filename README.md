@@ -1,2 +1,3 @@
 # Android_NavDemo_OnWatch
-Test Navigation on the watch
+first version - Test Navigation on the watch.
+second version - Add the heart rate simulation.
