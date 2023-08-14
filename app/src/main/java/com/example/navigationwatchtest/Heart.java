@@ -127,6 +127,5 @@ public class Heart extends Fragment {
     }
     public void onDestroyView() {
         super.onDestroyView();
-        mainHandler.removeCallbacks(heartbeatRunnable); // 停止心跳
     }
 }

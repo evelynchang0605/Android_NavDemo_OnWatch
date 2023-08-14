@@ -2,13 +2,23 @@
     <string name="app_name">NavigationWatchTest</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="textview">Home</string>
-    <string name="button">Compass</string>
     <string name="textview2">Compass</string>
     <string name="button2">Home</string>
-    <string name="imageButton">heartbeat</string>
     <string name="textview3">HeartBeat</string>
     <string name="imageView">heat_full</string>
     <string name="imageButton2">backhome</string>
     <string name="button3">start</string>
+    <string name="imageView_timer">timer</string>
+    <string name="button_start">start</string>
+    <string name="button_stop">stop</string>
+    <string name="imageButton_home">back</string>
+    <string name="button_compass">Compass</string>
+    <string name="button_heart_rate">Heart Rate</string>
+    <string name="home_button_timer">Timer</string>
+    <string name="wearableRecyclerView">home_wearableRecyclerView</string>
+    <string name="button_compass2">Compass</string>
+    <string name="button_heartrate2">Heart Rate</string>
+    <string name="button_timer2">Timer</string>
+    <string name="itemTextView">Home</string>
+    <string name="imageButton_heartrate">heartRate</string>
 </resources>
